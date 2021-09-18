@@ -1,6 +1,6 @@
 import puppetteer from "puppeteer";
 
-const baseUrl = ".../dist/index.html";
+const baseUrl = "http://localhost:9000";
 
 jest.setTimeout(30000); // default puppeteer timeout
 describe("button", () => {
