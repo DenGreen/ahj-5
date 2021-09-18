@@ -1,10 +1,11 @@
 import puppetteer from "puppeteer";
 
+const baseUrl = "http://localhost:9000";
+
 jest.setTimeout(30000); // default puppeteer timeout
 describe("button", () => {
   let browser = null;
   let page = null;
-  const baseUrl = "http://localhost:9000/";
   beforeAll(async () => {
     browser = await puppetteer.launch({
       headless: false, // show gui
