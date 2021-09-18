@@ -8,6 +8,7 @@ install:
 - yarn install # команда установки зависимостей
 build: off
 build_script:
+publish_nuget: true
 - yarn run build # команда сборки
 test_script:
 - yarn run lint && yarn test || yarn test --passWithNoTests # скрипт тестирования
