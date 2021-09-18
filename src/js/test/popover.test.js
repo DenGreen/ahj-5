@@ -9,7 +9,7 @@ describe("button", () => {
   beforeAll(async () => {
     browser = await puppetteer.launch({
       headless: false, // show gui
-      slowMo: 100,
+      slowMo: 250,
       devtools: true, // show devTools
     });
     page = await browser.newPage();
