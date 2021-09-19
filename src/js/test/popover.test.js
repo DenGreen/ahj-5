@@ -1,6 +1,6 @@
 import puppetteer from "puppeteer";
 
-const baseUrl = "https://dengreen.github.io/ahj-05/";
+const baseUrl = "https://dengreen.github.io/ahj-5/";
 
 jest.setTimeout(30000); // default puppeteer timeout
 describe("button", () => {
